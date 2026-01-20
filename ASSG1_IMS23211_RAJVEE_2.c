@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n,count,num;
+    int n,count,num,flag=0;
     
 
     scanf("%d",&n);
@@ -32,6 +32,7 @@ int main()
             if(arr[i]==arr[j] && j != i)
             {
                 count++;
+                flag++;
                 visited[j]=1;
             }
                 
@@ -54,6 +55,8 @@ int main()
             
             
     }
+    if(flag<1)
+        printf("-1");
         
     
 
