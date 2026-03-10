@@ -49,7 +49,7 @@ int main()
             return 0;
         }
     }
-
+    
     for(j=1;j<n;j++)
     {
         key=A[j];

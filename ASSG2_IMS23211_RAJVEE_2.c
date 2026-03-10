@@ -88,7 +88,7 @@ int main()
         printf("-1");
         return 0;
     }
-
+    
     quick_sort(A,0,n-1);
 
     for(i=0;i<n;i++)
